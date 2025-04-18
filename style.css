@@ -1,23 +1,23 @@
-
-
 /*Pour la couleur lespacement et la position des sections*/
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;        
+    gap: 20px;
     justify-content: center;
     padding: 20px;
 }
-  
+
 
 .ma-section {
     background-color: lightgray;
     border-color: black;
 }
+
 .section {
     background-color: lightcoral;
 }
+
 .PRO {
     background-color: bisque;
 }
@@ -30,33 +30,34 @@
     height: auto;
     border-radius: 8px;
 }
+
 .item {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
-    width: 200px;            
+    width: 200px;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
- /* Details des produits */ 
- 
+
+/* Details des produits */
+
 .price {
     font-weight: bold;
     color: #e60000;
     font-size: 16px;
 }
+
 .titre {
-    
     font-size: 14px;
     color: #333;
-
 }
 
 .description {
-margin: 10px 0 5px;
-font-size: 14px;
-color: #333;
+    margin: 10px 0 5px 0;
+    font-size: 14px;
+    color: #333;
 }
